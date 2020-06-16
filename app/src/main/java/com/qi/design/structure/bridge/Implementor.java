@@ -1,4 +1,6 @@
 package com.qi.design.structure.bridge;
 
-public class Implementor {
+public interface Implementor {
+
+    public  void  xinghao (String a);
 }
