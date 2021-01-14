@@ -9,6 +9,9 @@ import com.qi.design.structure.bridge.Abstraction;
 import com.qi.design.structure.bridge.ConcreteImplementor;
 import com.qi.design.structure.bridge.Implementor;
 import com.qi.design.structure.bridge.RefinedAbstraction;
+import com.qi.design.structure.decorator.XiaoBing;
+import com.qi.design.structure.decorator.Yingxiong;
+import com.qi.design.structure.decorator.dijia;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -28,5 +31,10 @@ public class MainActivity extends AppCompatActivity {
         Abstraction abstraction = new RefinedAbstraction() ;
         abstraction.setImplementor(implementor);
         abstraction.zuhe();
+        // 装饰着模式
+        Yingxiong  xiaoBing  =  new XiaoBing();
+        dijia dijia  = new dijia(xiaoBing);
+        dijia.appenddengji("0");
+        dijia.getDengji();
     }
 }
