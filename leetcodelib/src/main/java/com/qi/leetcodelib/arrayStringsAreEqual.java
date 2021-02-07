@@ -10,7 +10,7 @@ public class arrayStringsAreEqual {
         StringBuffer stringBuffer = new StringBuffer();
         StringBuffer stringBuffer1 = new StringBuffer();
         for (String s : word1) {
-            stringBuffer.append(s); //dsaf 
+            stringBuffer.append(s); //dsaf aaaa
         }
 
 
